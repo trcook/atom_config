@@ -1,0 +1,6 @@
+*
+!/.atom
+!/.atom/config.cson
+!/.atom/keymap.cson
+!/.gitignore.d
+!/.gitignore.d/atom

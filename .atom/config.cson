@@ -1,0 +1,84 @@
+"*":
+  editor:
+    showInvisibles: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    confirmCheckoutHeadRevision: false
+    invisibles: {}
+    scrollPastEnd: true
+    undoGroupingInterval: 50
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    projectHome: "/Users/tom/Documents/Projects"
+    disabledPackages: [
+      "open-terminal-here"
+      "latex"
+      "language-julia"
+      "language-jade"
+      "run-command2"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atomic-emacs"
+      "vim-mode"
+    ]
+  "exception-reporting":
+    userId: "710f4a1e-829a-5bf2-c746-80e1f9fd1245"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "d703a6a523272c79bfbdf91da231d94ae65d23c7"
+  "open-terminal-here":
+    app: "iTerm.app"
+  latex:
+    enableShellEscape: true
+    texPath: "/Users/tom/Library/TeX/LocalTeX/texbin"
+  minimap:
+    plugins:
+      "git-diff": true
+      "minimap-autohide": true
+      codeglance: true
+    absoluteMode: true
+  "atom-terminal":
+    app: "iTerm.app"
+  "terminal-panel": {}
+  "tree-view":
+    showOnRightSide: false
+  Hydrogen: {}
+  "autocomplete-plus":
+    enableAutoActivation: false
+  "build-tools-cpp": {}
+  jumpy:
+    highContrast: true
+  "build-tools":
+    CloseOnSuccess: 2
+  "spell-check":
+    grammars: [
+      "front-matter.yaml"
+      "string.unquoted.yaml"
+      "string.unquoted.yaml"
+      "text.tex.latex"
+      "text"
+      "source.yaml"
+      "text.markdown"
+      "source.gfm"
+      "text.plain.null-grammar"
+    ]
+  "run-command2": {}
+  linter: {}
+  "custom-title":
+    template: "<%= fileName %><% if ( projectPath ) { %> - <%= relativeFilePath %><% } %>"
+  "git-plus": {}
+  "vim-mode":
+    startInInsertMode: true
+  deprecated:
+    tool:
+      npmapm: true
+  build: {}
+  "one-light-ui": {}
+  "linter-pylint": {}
