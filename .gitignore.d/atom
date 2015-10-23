@@ -1,5 +1,6 @@
 *
 !/.atom
+!/.atom/.build-tools.cson
 !/.atom/config.cson
 !/.atom/keymap.cson
 !/.gitignore.d
