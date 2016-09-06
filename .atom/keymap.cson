@@ -22,13 +22,16 @@
 #  'j': 'exit-insert-mode-if-preceded-by-k'
 
 
+
+
+
 '.workspace':
   'alt-v': 'core:page-up'
   'ctrl-v': 'core:page-down'
 
 
-'.find-and-replace .find-container .editor':
-  'cmd-;': 'easy-motion:start-contextual'
+# '.find-and-replace .find-container .editor':
+  # 'cmd-;': 'easy-motion:start-contextual'
 
 
 '.atom-text-editor.vim-mode.insert-mode':
@@ -39,8 +42,8 @@
 # '.editor.vim-mode.visual-mode':
 #   'k j': 'vim-mode:activate-normal-mode'
 
-'atom-workspace atom-text-editor:not(.mini)':
-  'cmd-;': 'jumpy:toggle'
+# 'atom-workspace atom-text-editor:not(.mini)':
+  # 'cmd-;': 'jumpy:toggle'
 
 '.platform-darwin atom-text-editor':
   'cmd-enter': 'hydrogen:run'
@@ -143,8 +146,8 @@
   'ctrl-p': 'atomic-emacs:previous-line'
   'up': 'atomic-emacs:previous-line'
   'down': 'atomic-emacs:next-line'
-  'ctrl-v': 'atomic-emacs:scroll-up'
-  'alt-v': 'atomic-emacs:scroll-down'
+
+
 
 '.platform-linux atom-workspace.atomic-emacs atom-text-editor':
   'ctrl-d': 'core:delete'
@@ -188,12 +191,12 @@
 
 
 'atom-text-editor.vim-mode':
-  'escape': 'vim-mode:reset-normal-mode'
+  'escape': 'core:cancel'
   'ctrl-c': 'vim-mode:reset-normal-mode'
   'ctrl-[': 'vim-mode:reset-normal-mode'
 
 'atom-text-editor.vim-mode:not(.normal-mode)':
-  'escape': 'vim-mode:activate-normal-mode'
+  'escape': 'core:cancel'
   'ctrl-[': 'vim-mode:activate-normal-mode'
 
 
@@ -292,3 +295,11 @@
   'u': 'vim-mode:lower-case'
   'v':      'vim-mode:activate-characterwise-visual-mode'
   'V':      'vim-mode:activate-linewise-visual-mode'
+  'ctrl-g':"core:cancel"
+
+
+
+#### Easy motion Redux config:
+
+# 'atom-workspace atom-text-editor:not(.mini)':
+  # 'cmd-;':'easy-motion-redux:letter'

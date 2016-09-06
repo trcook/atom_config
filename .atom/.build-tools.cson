@@ -4,8 +4,8 @@ providers: [
     config:
       commands: [
         {
-          project: "/Users/tom/Documents/Boulder/Projects/data management workshop"
-          source: "/Users/tom/Documents/Boulder/Projects/data management workshop/.build-tools.cson"
+          project: "/Users/tom/.atom"
+          source: "/Users/tom/.atom/.build-tools.cson"
           name: "Rake"
           command: "rake"
           wd: "%d"
@@ -21,7 +21,10 @@ providers: [
             highlighting: "nh"
           stderr:
             highlighting: "nh"
-          output: {}
+          output:
+            console:
+              close_success: true
+              queue_in_buffer: true
           version: 1
         }
       ]

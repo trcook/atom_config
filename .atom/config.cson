@@ -1,62 +1,92 @@
 "*":
-  editor:
-    showInvisibles: true
-    showIndentGuide: true
-    softWrap: true
-    softWrapAtPreferredLineLength: true
-    confirmCheckoutHeadRevision: false
-    invisibles: {}
-    scrollPastEnd: true
-    undoGroupingInterval: 50
+  Hydrogen:
+    kernelspec: "{\"kernelspecs\":{\"ir\":{\"resources_dir\":\"/Users/tom/Library/Jupyter/kernels/ir\",\"spec\":{\"language\":\"R\",\"display_name\":\"R\",\"env\":{},\"argv\":[\"/Library/Frameworks/R.framework/Resources/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"]}},\"julia-0.4\":{\"resources_dir\":\"/Users/tom/Library/Jupyter/kernels/julia-0.4\",\"spec\":{\"language\":\"julia\",\"display_name\":\"Julia 0.4.0\",\"env\":{},\"argv\":[\"/usr/local/Caskroom/julia/0.4.0/Julia-0.4.0.app/Contents/Resources/julia/bin/julia\",\"-i\",\"-F\",\"/Users/tom/.julia/IJulia/src/kernel.jl\",\"{connection_file}\"]}},\"python2\":{\"resources_dir\":\"/usr/local/lib/python2.7/site-packages/ipykernel/resources\",\"spec\":{\"language\":\"python\",\"display_name\":\"Python 2\",\"env\":{},\"argv\":[\"/usr/local/opt/python/bin/python2.7\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]}}}}"
+  "activate-power-mode":
+    autoToggle: false
+  "atom-terminal":
+    app: "iTerm.app"
+  "autocomplete-plus":
+    enableAutoActivation: false
+  "build-tools": {}
   core:
-    themes: [
-      "one-light-ui"
-      "one-light-syntax"
-    ]
-    projectHome: "/Users/tom/Documents/Projects"
     disabledPackages: [
       "open-terminal-here"
-      "latex"
       "language-julia"
       "language-jade"
-      "run-command2"
+      "language-markdown"
+      "markdown-scroll-sync"
+      "easy-motion-redux"
+      "rst-preview"
+      "activate-power-mode"
     ]
     packagesWithKeymapsDisabled: [
       "atomic-emacs"
       "vim-mode"
+      "python-autopep8"
     ]
+    projectHome: "/Users/tom/Documents/Projects"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  "custom-title":
+    template: "<%= fileName %><% if ( projectPath ) { %> - <%= relativeFilePath %><% } %>"
+  deprecated:
+    tool:
+      npmapm: true
+  "easy-motion-redux":
+    replaceCharacters: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontSize: 11
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    undoGroupingInterval: 50
   "exception-reporting":
     userId: "710f4a1e-829a-5bf2-c746-80e1f9fd1245"
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "d703a6a523272c79bfbdf91da231d94ae65d23c7"
-  "open-terminal-here":
-    app: "iTerm.app"
+  "git-plus": {}
+  jumpy:
+    highContrast: true
   latex:
     enableShellEscape: true
     texPath: "/Users/tom/Library/TeX/LocalTeX/texbin"
+  linter:
+    lintOnFly: false
+    showErrorTabProject: false
+    statusIconScope: "File"
+  "linter-pylint": {}
+  "markdown-preview": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    liveUpdate: false
+  metrics:
+    userId: "d703a6a523272c79bfbdf91da231d94ae65d23c7"
   minimap:
-    plugins:
-      "git-diff": true
-      "minimap-autohide": true
-      codeglance: true
     absoluteMode: true
-  "atom-terminal":
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      "git-diff": false
+      "git-diffDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "one-light-ui": {}
+  "open-in":
+    applications: "GitHub,Terminal,subl3"
+  "open-terminal-here":
     app: "iTerm.app"
-  "terminal-panel": {}
-  "tree-view":
-    showOnRightSide: false
-  Hydrogen: {}
-  "autocomplete-plus":
-    enableAutoActivation: false
-  "build-tools-cpp": {}
-  jumpy:
-    highContrast: true
-  "build-tools":
-    CloseOnSuccess: 2
+  preview:
+    _analyticsUserId: "76c8bcf7-09e6-443c-9ea2-4253b8522bef"
+  "python-autopep8":
+    maxLineLength: 80
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "rst-preview-pandoc":
+    pandocOpts: "-frst -thtml --webtex"
+  "run-command2": {}
   "spell-check":
     grammars: [
       "front-matter.yaml"
@@ -69,16 +99,10 @@
       "source.gfm"
       "text.plain.null-grammar"
     ]
-  "run-command2": {}
-  linter: {}
-  "custom-title":
-    template: "<%= fileName %><% if ( projectPath ) { %> - <%= relativeFilePath %><% } %>"
-  "git-plus": {}
+  "terminal-panel": {}
+  "tree-view": {}
   "vim-mode":
     startInInsertMode: true
-  deprecated:
-    tool:
-      npmapm: true
-  build: {}
-  "one-light-ui": {}
-  "linter-pylint": {}
+  welcome:
+    showOnStartup: false
+  whitespace: {}
